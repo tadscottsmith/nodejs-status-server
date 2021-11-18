@@ -1,6 +1,6 @@
 
 var splunkAddress = process.env["SPLUNK_ADDRESS"];
-var spunkToken = process.env["SPLUNK_TOKEN"];
+var splunkToken = process.env["SPLUNK_TOKEN"];
 process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
 
 var express = require('express');
