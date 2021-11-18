@@ -55,7 +55,7 @@ function processMessage(call, type){
         path: '/services/collector/event',
         method: 'POST',
         headers: {
-            'Authorization': 'Splunk ' + splunkToken;
+            'Authorization': 'Splunk ' + splunkToken
         }
     }
     const req = https.request(options, res => {
